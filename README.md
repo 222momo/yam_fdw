@@ -1,3 +1,18 @@
+## 项目维护地址
+https://github.com/222momo/yam_fdw
+## 项目原址
+https://github.com/asya999/yam_fdw
+### tips：作为原项目的补丁，该项目已年久失修，无法联系作者提交补丁，因此，在本项目中做一些更新
+## 1.修改项目支持python3语法
+__init__.py
+```
+加入
+from functools import reduce
+
+for x in xrange(docCount):
+改成
+for x in range(docCount):
+```
 
 Yet Another Postgres FDW for MongoDB 
 ====================================
